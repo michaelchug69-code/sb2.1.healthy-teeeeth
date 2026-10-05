@@ -1,3 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #23443D;
+  font-family: "Nunito Sans", "Arial", sans-serif;
+  color: #E9ECEC;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Шапка */
+.header {
+  padding: 20px 0;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.header__link {
+  color: #E9ECEC;
+  text-decoration: none;
+}
+
+.header__signup {
+  color: #64B48B;
+  text-decoration: none;
+}
+
+/* Хлебные крошки */
+.breadcrumbs {
+  padding: 20px 0;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+}
+
+.breadcrumbs__link {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+/* Футер */
+.footer {
+  padding: 40px 0;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__social {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+}
+
+.footer__contact-phone {
+  color: #E9ECEC;
+  text-decoration: none;
+}
+
 .text-block {
   font-family: "Nunito Sans", "Arial", sans-serif;
 }
